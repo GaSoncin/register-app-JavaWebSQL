@@ -1,0 +1,75 @@
+* {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+body {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	height: 100vh;
+}
+
+.container {
+  width: 450px;
+  height: 600px;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+
+.content {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cadastro {
+  display: flex;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+	display: flex;
+	text-align: center;
+}
+
+#cadastro input[type="text"],
+#cadastro input[type="password"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.botao-verde {
+  display: inline-block;
+  padding: 4px 4px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.botao-verde:hover {
+  background-color: #45a049;
+}
